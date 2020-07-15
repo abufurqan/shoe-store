@@ -1,17 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+
+import { BrowserRouter as Router } from "react-router-dom";
+
+import { ThemeProvider } from "@material-ui/core/styles";
+import { theme } from "./styles/theme";
+import CssBaseline from "@material-ui/core/CssBaseline";
+
+import GlobalDataProvider from "./state/GlobalDataProvider";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <Router>
+      <GlobalDataProvider>
+        <App />
+      </GlobalDataProvider>
+    </Router>
+  </ThemeProvider>,
+  document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
