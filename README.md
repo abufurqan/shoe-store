@@ -1,6 +1,9 @@
 
 ## Repository in Action
-Open [http://bc2020_proj03.surge.sh/](http://bc2020_proj03.surge.sh/) to view it in the browser.
+Open [http://bc2020_proj03.surge.sh/](http://bc2020_proj03.surge.sh/) to view it in the browser.<br />
+
+### `Project Logo`
+![Project Logo](https://github.com/abufurqan/shoe-store/blob/master/src/components/Navigation/logo.png)
 
 ## Project
 
