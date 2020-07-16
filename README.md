@@ -1,6 +1,8 @@
 
-Repository in Action:<br />
+## Repository in Action
 Open [http://bc2020_proj03.surge.sh/](http://bc2020_proj03.surge.sh/) to view it in the browser.
+
+## Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
